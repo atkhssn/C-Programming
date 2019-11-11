@@ -9,8 +9,9 @@ int main ()
     printf("Enter a value of temperature in Celsius: \n");
     scanf("%f", &temperature);
 
-    fahrenheit = ((9 * temperature) + 160) / 5; // Law of °F to °C, °F = (9 * temperature °C +160) / 5
+    fahrenheit = ((9 * temperature) + 160) / 5; // Law of °C to °F, °F = (9 * temperature °C +160) / 5
 
     printf("The temperature you\'ve entered %.2f C and It\'s fahrenheit value is %.2f F \n", temperature, fahrenheit);
+
     return 0;
 }
